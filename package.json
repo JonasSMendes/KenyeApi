@@ -1,0 +1,28 @@
+{
+  "name": "kenyeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasSMendes/KenyeApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasSMendes/KenyeApi/issues"
+  },
+  "homepage": "https://github.com/JonasSMendes/KenyeApi#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
