@@ -2,6 +2,7 @@
 import { useState } from "react"
 import axios from "axios"
 import { useEffect } from "react";
+import Link from "next/link";
 
 function Home() {
 
@@ -27,6 +28,9 @@ function Home() {
 
                 <div className="">
                     {kenye.data.quote}
+                    <Link href="/sobre" >
+                        Sobre
+                    </Link>
                 </div>
 
             </div>
