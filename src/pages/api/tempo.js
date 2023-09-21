@@ -1,8 +1,13 @@
-function tempo(request, response) {
-    const dynamicDate = new Date();
+async function tempo(request, response) {
 
+    const apiKey = process.env.CONVERTKIT_API_SECRET;
+
+    const subscribersResponse = await fetch(`https://api.convertkit.com/v3/subscribers?api_secret=${apiKey}`)
+    const dynamicDate = new Date();
+    const inscritos = subscribersResponse.total_subscribers;
     response.json({
-        date: dynamicDate.getTime()
+        date: dynamicDate.getFullYear(),
+        inscritos: inscritos
     })
 }
 
