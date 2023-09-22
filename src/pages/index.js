@@ -31,6 +31,9 @@ function Home() {
                     <Link href="/sobre" >
                         Sobre
                     </Link>
+                    <Link href="/pageOnePiece" >
+                        page one piece
+                    </Link>
                 </div>
 
             </div>
